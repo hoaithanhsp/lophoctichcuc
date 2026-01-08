@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClassPoint Manager</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              display: ['Nunito', 'sans-serif'],
+            },
+            colors: {
+              apple: {
+                gray: '#F5F5F7',
+                blue: '#007AFF',
+                green: '#34C759', // Apple Green
+                red: '#FF3B30', // Apple Red
+                card: '#FFFFFF',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #F5F5F7;
+        -webkit-font-smoothing: antialiased;
+      }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #D1D5DB;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #9CA3AF;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "xlsx": "https://esm.sh/xlsx@^0.18.5",
+    "canvas-confetti": "https://esm.sh/canvas-confetti@^1.9.4",
+    "react-chartjs-2": "https://esm.sh/react-chartjs-2@^5.3.1",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2",
+    "vite": "https://esm.sh/vite@^7.3.1",
+    "@eslint/js": "https://esm.sh/@eslint/js@^9.39.2",
+    "@supabase/supabase-js": "https://esm.sh/@supabase/supabase-js@^2.90.0",
+    "eslint-plugin-react-hooks": "https://esm.sh/eslint-plugin-react-hooks@^7.0.1",
+    "typescript-eslint": "https://esm.sh/typescript-eslint@^8.52.0",
+    "chart.js": "https://esm.sh/chart.js@^4.5.1",
+    "eslint-plugin-react-refresh": "https://esm.sh/eslint-plugin-react-refresh@^0.4.26",
+    "globals": "https://esm.sh/globals@^17.0.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

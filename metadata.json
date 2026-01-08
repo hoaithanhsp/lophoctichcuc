@@ -1,0 +1,5 @@
+{
+  "name": "Copy of ClassPoint Manager",
+  "description": "Ứng dụng quản lý điểm thi đua lớp học theo phong cách Apple. Hỗ trợ hệ thống level, đổi quà, bảng xếp hạng và xuất nhập Excel.",
+  "requestFramePermissions": []
+}
